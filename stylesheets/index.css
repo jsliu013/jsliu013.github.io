@@ -1,0 +1,46 @@
+.btn-linkedin {
+	background: #0E76A8;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #084461;
+}
+
+.btn-linkedin:link, .btn-linkedin:visited {
+	color: #fff;
+}
+
+.btn-linkedin:active, .btn-linkedin:hover {
+	background: #084461;
+	color: #fff;
+}
+
+.btn-github {
+	background: #777;
+	color: #000;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+}
+
+.btn-github:link, .btn-github:visited {
+	color: #fff;
+}
+
+.btn-github:active, .btn-github:hover {
+	background: #555;
+	color: #fff;
+}
+
+.btn-default{
+	background: #00bfff;
+	color:#fff;
+	border-width:1px;
+	border-style:solid;
+	border-color:#001489;
+}
+
+.btn-default:active, .btn-default:hover{
+	background:#0080ff;
+	color:#fff;
+}
