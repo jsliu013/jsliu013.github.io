@@ -1,25 +1,46 @@
-/* Style the tab buttons */
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+.btn-linkedin {
+	background: #0E76A8;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #084461;
 }
 
-/* Change background color of buttons on hover */
-.tablink:hover {
-  background-color: #777;
+.btn-linkedin:link, .btn-linkedin:visited {
+	color: #fff;
 }
 
-/* Set default styles for tab content */
-.tabcontent {
-  color: black;
-  display: none;
-  padding: 50px;
-  text-align: center;
+.btn-linkedin:active, .btn-linkedin:hover {
+	background: #084461;
+	color: #fff;
+}
+
+.btn-github {
+	background: #777;
+	color: #000;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+}
+
+.btn-github:link, .btn-github:visited {
+	color: #fff;
+}
+
+.btn-github:active, .btn-github:hover {
+	background: #555;
+	color: #fff;
+}
+
+.btn-default{
+	background: #00bfff;
+	color:#fff;
+	border-width:1px;
+	border-style:solid;
+	border-color:#001489;
+}
+
+.btn-default:active, .btn-default:hover{
+	background:#0080ff;
+	color:#fff;
 }
