@@ -15,8 +15,8 @@
 		-->
 		<title>Josh Liu Github.io</title>
 	</head>
-	<div class="container">
-		<nav>
+	<div class="container-fluid">
+		<nav id="splash">
 			<ul class="nav nav-tabs" role="tablist">
 				<li class="nav-item">
 					<a class="nav-link active" id="Me-tab" data-toggle="tab" href="#AboutMe" role="tab" aria-controls="AboutMe" aria-selected="true">About</a>
@@ -27,31 +27,126 @@
 			</ul>
 		</nav>
 		
-		<body class="tab-content" id=myTabContent">
+		<body class="tab-content" id="myTabContent">
 			<div id="AboutMe" class="tab-pane fade show active" role="tabpane1" aria-labelledby="Me-tab">
-				<section id="WhoAmI">
-					<main>
-						<h1> drop-down test 1</h1>
+			
+				<section id="Intro" class="row">
+					<main class="col-md-7 offset-md-1" id="About">
+						<h1> Who Am I?</h1>
 					</main> 
-					<div class="sidebar">
-						<img src="" class="img-circle" alt="Joshua Liu">
+					<div class="col-md-4" id="sidebarWrapper">
+						<div class="row">
+							<img src="data/seiryuu.jpg" class="rounded-circle offset-md-4" id="MyPic" alt="Joshua Liu">
+						</div>
+						
+						<div class="row offset-md-2">
+							<h3> Joshua Liu </h3>							
+						</div>
+						
+						<div class="row offset-md-2" style="margin-top:15px; margin-bottom:15px;">
+							<h5 class="col-md-12" style="margin-left:-15px"> BS in Computer Science </h5>
+							<h6 class="col-md-12" style="margin-left:-15px;"> Monterey Park, CA </h6>
+						</div>
+						
+						<div class="row offset-md-2" style="margin-top:15px; margin-bottom:15px;">
+							<h6 class="col-md-12" style="margin-left:-15px">email: joshliu013@gmail.com </h6>
+							<h6 class="col-md-12" style="margin-left:-15px; margin-bottom:25px;">phone: (626)228-7091 </h6>
+						</div>
+						
+						<div class="row">
+							<div class="offset-md-2 col-md-4">
+								<a href="https://www.linkedin.com/in/joshliu013" target="_blank" rel="noopener" title="LinkedIn" class="btn btn-linkedin btn-md col-md-12"> <i class="fa fa-linkedin fa-fw"></i>LinkedIn</a>
+								<a href="https://www.github.com/jsliu013" target="_blank" rel="noopener" title="Github" class="btn btn-github btn-md col-md-12"> <i class="fa fa-github fa-fw"></i>Github </a>
+							</div>
+							
+							<div class="col-md-4">
+								<a href="data/resume.pdf" download="JoshLiuResume.pdf" title="Resume" class="btn btn-default btn-md col-md-12"> Download Resume </a>
+								<a href="data/CV.pdf" download="JoshLiuCV.pdf" title="Curriculum Vitae" class="btn btn-default btn-md col-md-12 disabled"> Download CV</a>
+							</div>
+						</div>
 					</div>
 				</section>
 				
-				<section id="Education">
+				<section id="Background" class="majorSection row">
+					<div class="minorSection offset-md-1 col-md-11">
+						<h1 class="row col-md-12">About</h1>
+						<h4 class="row col-md-12">MY BACKGROUND </h4>
+						<p class="row col-md-12"> derp</p>
+					</div>
 				</section>
 				
-				<section id="Experience">
+				<section id="EdExp" class="majorSection row">
+					<div id="Education" class="offset-md-1 col-md-5 minorSection"">
+						<h1 class="row col-md-12">Education</h1>
+						<h4 class="row col-md-12">Where I've Learned </h4>
+						
+						<div class= "row col-md-12" style="margin-left:0; margin-top:20px;">	
+							<h5 class="row col-md-12 nomargin">California State University, Northridge </h5>
+							<p class="row col-md-12 nomargin">2016-2018</p>
+							<p class="row col-md-12 nomargin">Bachelor of Science; Computer Science</p> 
+						</div>
+						
+						<div class= "row col-md-12" style="margin-left:0; margin-top:20px;">
+							<h5 class="row col-md-12 nomargin">Pasadena City College</h5>
+							<p class="row col-md-12 nomargin">2010-2016</p>
+						</div>
+					</div>
+					
+					<div id="Experience" class="offset-md-1 col-md-5 minorSection">
+					<!--
+						<h1 class="row col-md-12">Experience</h1>
+						<h4 class="row col-md-12">Where I've Worked </h4>
+						<p class="row col-md-12"> derp</p>
+						-->
+					</div>
 				</section>
 				
-				<section id="SkillsExperience">
+				<section id="Skills" class="majorSection row">
+					<div class=" offset-md-1 col-md-11 minorSection">
+						<h1 class="row col-md-12">Skills</h1>
+						<h4 class="row col-md-12">What I Bring </h4>
+						
+						<div class="row col-md-12" id="abi" style="margin-left:0; margin-top:20px;">
+							<div class="row col-md-12" style="margin-left:0; margin-top:20px;">
+								<p class="row col-md-12 nomargin"> C++/C </p>
+								<p class="row col-md-12 nomargin"> Java </p>
+								<p class="row col-md-12 nomargin"> English </p>
+								<p class="row col-md-12 nomargin"> HTML/CSS/JS </p>
+								<p class="row col-md-12 nomargin"> OpenGL </p>
+								<p class="row col-md-12 nomargin"> Unreal Engine 4 </p>
+								<p class="row col-md-12 nomargin"> Unity </p>
+							</div>
+							
+							<div class="row col-md-12 " id="lang" style="margin-left:0; margin-top:20px;">
+								<p class="row col-md-12 nomargin"> English </p>
+								<p class="row col-md-12 nomargin"> Mandarin Chinese</p>
+								<p class="row col-md-12 nomargin"> Spanish</p>
+								<p class="row col-md-12 nomargin"> Japanese</p>
+							</div>
+						</div>
+						
+					</div>
 				</section>
 				
-				<section id="Awards">
+				<section id="AwardsInterests" class="majorSection row">
+					<div id="Awards" class="offset-md-1 col-md-5 minorSection">
+							<h1 class="row col-md-12">Awards</h1>
+							<h4 class="row col-md-12">What I've Earned</h4>
+							
+							<div class="row col-md-12 " id="lang" style="margin-left:0; margin-top:20px;">
+								<p class="row col-md-12"> Eagle Scout</p>
+							</div>
+					</div>
+					
+					<div id="Interests" class="offset-md-1 col-md-5 minorSection">
+						<h1 class="row col-md-12">Interests</h1>
+						<h4 class="row col-md-12">Outside the Office</h4>
+						
+						<div class="row col-md-12 " id="lang" style="margin-left:0; margin-top:20px;">
+							<p class="row col-md-12"> derp</p>
+						</div>
+					</div>
 				</section>
-				
-				<section id="Interests">
-				</section>		
 			</div>
 			
 			<div id="MyProjects" class="tab-pane fade" id="projects" role="tabpane1" aria-labelledby="projects-tab">
@@ -61,23 +156,28 @@
 			</div>
 		</body>
 		
-		<footer class="panel-footer">
-			<div class="row">
-				<div id="contactme"> 
-					<div id="email"> joshliu013@gmail.com </div>
-					<div id="phone"> (626)-228-7091 </div>
+		<footer>
+			<div id="footertop">
+				<div id="contactme" class="row">
+					<div  class="col-md-8 offset-md-1"> 
+						<div id="email"> joshliu013@gmail.com </div>
+						<div id="phone"> (626)-228-7091 </div>
+					</div>
+					<div id="toTop" class="col-md-3"> 
+							<button type="button" class="btn btn-default btn-circle"> &and; </button> 
+						</div>
 				</div>
-				<div class="links">
-					<a href="https://www.linkedin.com/in/joshliu013" target="_blank" rel="noopener" title="LinkedIn" class="btn btn-linkedin btn-md"> <i class="fa fa-linkedin fa-fw"></i></a>
-					<a href="https://www.github.com/jsliu013" target="_blank" rel="noopener" title="Github" class="btn btn-github btn-md"> <i class="fa fa-github fa-fw"></i></a>
+				<div class="row">
+		
+					<div id="footerlinks" class="col-md-6 offset-md-1">
+						<a href="https://www.linkedin.com/in/joshliu013" target="_blank" rel="noopener" title="LinkedIn" class="btn btn-linkedin btn-md"> <i class="fa fa-linkedin fa-fw"></i></a>
+						<a href="https://www.github.com/jsliu013" target="_blank" rel="noopener" title="Github" class="btn btn-github btn-md"> <i class="fa fa-github fa-fw"></i></a>
+					</div>
+					<div id="footerdls" class="col-md-4"> 
+						<a href="/data/resume.pdf" download="JoshLiuResume" title="Resume" class="btn btn-default"> Download Resume </a>
+						<a href="/data/CV.pdf" download="JoshLiuCV" title="Curriculum Vitae" class="btn btn-default disabled"> Download CV</a>
+					</div>
 				</div>
-				
-				<div id="download"> 
-					<a href="/data/resume.pdf" download title="Resume" class="btn btn-default"> Download Resume </a>
-					<a href="/data/CV.pdf" download title="Curriculum Vitae" class="btn btn-default"> Download CV</a>
-				</div>
-				
-				<div id="toTop"> </div>
 			</div>
 			
 			<div class="row">

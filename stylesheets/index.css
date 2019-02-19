@@ -1,3 +1,15 @@
+.nav-link{
+	color: white;
+}
+
+.nomargin{
+	margin:0;
+}
+
+.majorSection{
+	padding-bottom:75px;
+}
+
 .btn-linkedin {
 	background: #0E76A8;
 	color: #fff;
@@ -11,7 +23,7 @@
 }
 
 .btn-linkedin:active, .btn-linkedin:hover {
-	background: #084461;
+	background: #0b648e;
 	color: #fff;
 }
 
@@ -40,7 +52,76 @@
 	border-color:#001489;
 }
 
-.btn-default:active, .btn-default:hover{
-	background:#0080ff;
+.btn-default:active, .btn-default:hover{	
+	background:#00ace6 !important ;
 	color:#fff;
 }
+
+.btn-circle{
+	width:40px;
+	height: 40px;
+	text-align:center;
+	padding: 0;
+	border-radius:25px;
+	font-size: 15px;
+	background-color:#fff;
+	border-color:#00bfff;
+	color:#00bfff;
+}	
+
+.btn-circle:active, .btn-default:hover{
+	background:#00bfff;
+}
+
+#splash{
+	background:#0f83bd;
+	color:white;
+	margin:0 -15px;
+}
+
+#sidebarWrapper{
+	background:#0f83bd;
+	color:white;
+	margin-top:-5px;
+	padding-top:15px;
+	padding-bottom:25px;
+}
+
+#MyPic{
+	max-height:200px;
+	max-width: 200px;
+	margin-bottom:30px;
+	
+}
+
+#minorSection,{
+	padding: 20px 0;
+}
+
+#Background {
+	background:#b3ccff;
+}
+
+#footertop{
+	background:#ddd;
+	margin:0 -15px;
+	padding:50px 0;	
+}
+
+#contactme{
+	margin-bottom: 30px;
+}
+
+#footerlinks{
+
+}
+
+#footerdls{
+}
+
+#copyright{
+	background:#0f83bd;
+	color: #fff;
+	height:100px;
+}
+	
